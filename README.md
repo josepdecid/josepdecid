@@ -67,5 +67,7 @@
    <img src="https://img.shields.io/badge/godot-%23478CBF.svg?&style=for-the-badge&logo=godotengine&logoColor=white"/>
 </div>
 
-> [!NOTE] About that card up top
+> [!NOTE]
+> **About that card up top**
+>
 > It is not a third-party service &mdash; it is a small Haskell program in <a href="./card"><code>card/</code></a> that queries the GitHub GraphQL API, adds up the commits, stars and lines of code across every repository I have touched, and renders the result as two animated SVGs (one per colour scheme). A <a href="./.github/workflows/profile-card.yml">GitHub Action</a> rebuilds and commits it every morning. Line counts are cached per repository, so each run only walks the commits pushed since the last one.
