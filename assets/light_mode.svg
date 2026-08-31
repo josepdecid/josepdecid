@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="372" viewBox="0 0 840 372" role="img"
+     aria-label="josepdecid@github statistics card">
+<title>josepdecid@github</title>
+<style>
+  text { font-family: 'JetBrains Mono','Fira Code','SFMono-Regular',ui-monospace,Menlo,Consolas,'Courier New',monospace; font-size: 14px; dominant-baseline: middle; }
+  .ascii { font-size: 7px; fill: #5e2ca5; white-space: pre; }
+  .key { fill: #8250df; }
+  .val { fill: #24292f; }
+  .acc { fill: #bc4c00; font-weight: 700; }
+  .add { fill: #1a7f37; }
+  .del { fill: #cf222e; }
+  .mut { fill: #6e7781; font-size: 12px; }
+  .prompt { fill: #1f6feb; font-weight: 700; font-size: 15px; }
+  .fx { animation: reveal 0.5s cubic-bezier(0.22, 1, 0.36, 1) both; }
+  @keyframes reveal { from { transform: translateX(-14px); } to { transform: translateX(0); } }
+  .cursor { fill: #1f6feb; animation: blink 1.1s steps(2, start) 0.87s infinite backwards; }
+  @keyframes blink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) {
+    .fx { animation: none; opacity: 1; }
+    .cursor { animation: none; opacity: 1; }
+  }
+</style>
+
+<rect x="0.5" y="0.5" width="839" height="371" rx="10" fill="#fffefe" stroke="#d0d7de"/>
+<line x1="1" y1="40" x2="839" y2="40" stroke="#d0d7de"/>
+<circle cx="24" cy="20" r="6" fill="#ff5f57"/>
+<circle cx="44" cy="20" r="6" fill="#febc2e"/>
+<circle cx="64" cy="20" r="6" fill="#28c840"/>
+<text x="420" y="21" text-anchor="middle" class="mut">josepdecid — zsh</text>
+
+<text x="42" y="74" xml:space="preserve" class="fx ascii" style="animation-delay:0.15s">                    êQŒQWBŒÈMNÁÀ</text>
+<text x="42" y="81" xml:space="preserve" class="fx ascii" style="animation-delay:0.17s">               ÀÕêÈÆÆÆÆÆÆÆÆÆÆÆËŠŠêÔdŠ</text>
+<text x="42" y="88" xml:space="preserve" class="fx ascii" style="animation-delay:0.19s">          WÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÃR</text>
+<text x="42" y="95" xml:space="preserve" class="fx ascii" style="animation-delay:0.2s">          Ò#ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆþ</text>
+<text x="42" y="102" xml:space="preserve" class="fx ascii" style="animation-delay:0.22s">       œÉÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆêÆÆp</text>
+<text x="42" y="109" xml:space="preserve" class="fx ascii" style="animation-delay:0.24s">     #ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÁã</text>
+<text x="42" y="116" xml:space="preserve" class="fx ascii" style="animation-delay:0.26s">   RËËÆÆÆáêÆÆÑÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆpbÆÆÆê</text>
+<text x="42" y="123" xml:space="preserve" class="fx ascii" style="animation-delay:0.28s">    KÆÆÆsLÅÆÃ¾ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆ®#ÆW©ƒÆÆÆN</text>
+<text x="42" y="130" xml:space="preserve" class="fx ascii" style="animation-delay:0.3s">   BÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆN</text>
+<text x="42" y="137" xml:space="preserve" class="fx ascii" style="animation-delay:0.31s">  ÃÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÈ</text>
+<text x="42" y="144" xml:space="preserve" class="fx ascii" style="animation-delay:0.33s"> WÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÂ</text>
+<text x="42" y="151" xml:space="preserve" class="fx ascii" style="animation-delay:0.35s">ßRÁÆÆÆÆÆÆÆÆÆÆÆÆÆÀgÆÆÆÆÆÆÆÆÆÆÆÆÆXÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÂÀÔ</text>
+<text x="42" y="158" xml:space="preserve" class="fx ascii" style="animation-delay:0.37s">  NÆÆÆÆÆÆÆÆÆÆÆÆM’¯ÆÆÆÆÆÆÆÆÆÆÆÆÆìÌÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆ#</text>
+<text x="42" y="165" xml:space="preserve" class="fx ascii" style="animation-delay:0.39s"> ýÆÆÆÆÆÆÆÆÆÆÆÆÆ)´´JÆÆÆÆÆÆÆÆÆÆÆÆì´òÆÆÄØÆÆÆÆÆÆÆÆÆÆÆÆ8</text>
+<text x="42" y="172" xml:space="preserve" class="fx ascii" style="animation-delay:0.4s"> åÆÆÆÆÆÆÆÆÆÆÆÆ±´´´´öÆÆÆiYÆÆÆÆÆÆ&lt;´´sÆì…ŒÆÆÆÆÆÆÆÆÆÆÆÉ</text>
+<text x="42" y="179" xml:space="preserve" class="fx ascii" style="animation-delay:0.42s"> dÐÆÆÆÆÆÆÆÆÑÆÆ¸´´´´´×ÆÆ&gt;´¨ÃÆÆÆÆ*´´´‰´´dÆŒÆÆÆÆÆÆÆÆæX</text>
+<text x="42" y="186" xml:space="preserve" class="fx ascii" style="animation-delay:0.44s">   ØÆÆÆÆÆÆÕ7Æ&lt;´´´´´´´¸Wî´´´¡ÆÆÆ˜´´´´´´´Œ1XÆÆÆÆÆÆÃ</text>
+<text x="42" y="193" xml:space="preserve" class="fx ascii" style="animation-delay:0.46s">   ÁÆÆÆÆÒÆ8·i´´´´´´´´´´ˆ´´´´¨~e´´´´´´´´×…ÜÆµÆÆÆÆþ</text>
+<text x="42" y="200" xml:space="preserve" class="fx ascii" style="animation-delay:0.48s">   ðÆÆÆÆY b²¨¨·–4ÓÕÅy×¨´´´´´´—©ÀXÙŸ”…¨¨;±Ç’JÆÆÆÆœ</text>
+<text x="42" y="207" xml:space="preserve" class="fx ascii" style="animation-delay:0.5s">  ÐÆÊÆÆÆ®´´·}cåÑÑÂq6¨·¨´´´´´´’¨‹DœÉÊMžü»´´´žÆÆÆÃÆÄ</text>
+<text x="42" y="214" xml:space="preserve" class="fx ascii" style="animation-delay:0.51s">  ÁÈ´´SÑÐ´´´´´dÆ/’N©´´´´´´´´´´´´ñh¨JÆ~´´´´´qÆµ¨´ÃÅ</text>
+<text x="42" y="221" xml:space="preserve" class="fx ascii" style="animation-delay:0.53s">  ÀØ´´3ãØ·´´´´»ŒWÁŒ¯´´´´´´´´´´´´©ÆRØB·´´´´‘ÆE&amp;·´ÉÈ</text>
+<text x="42" y="228" xml:space="preserve" class="fx ascii" style="animation-delay:0.55s">  ŽÆv´ÀÆÆî´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´vÆÆÉ’nÆê</text>
+<text x="42" y="235" xml:space="preserve" class="fx ascii" style="animation-delay:0.57s">   ØQ´´)ÆÎ´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´eÑ)´´ÄË</text>
+<text x="42" y="242" xml:space="preserve" class="fx ascii" style="animation-delay:0.59s">   pÆÑª´ÙÅ´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´…Mp´;ÉÆ8</text>
+<text x="42" y="249" xml:space="preserve" class="fx ascii" style="animation-delay:0.6s">     ÄÆÆÈÆù´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´YÆÃÆÆX</text>
+<text x="42" y="256" xml:space="preserve" class="fx ascii" style="animation-delay:0.62s">       GÀÃÃ…´´´´´´´´´´´´´´´´´´´´´´´´´´´´‘MØÀG</text>
+<text x="42" y="263" xml:space="preserve" class="fx ascii" style="animation-delay:0.64s">         8ÆÐ´´´´´´´´´´´´´´´´´´´´´´´´´´´¨êÑp</text>
+<text x="42" y="270" xml:space="preserve" class="fx ascii" style="animation-delay:0.66s">          âÆW¸´´´´´´´¨„÷÷|—^¡^´´´´´´´´‚ÁØø</text>
+<text x="42" y="277" xml:space="preserve" class="fx ascii" style="animation-delay:0.68s">            æÆø…´´´´´´´´´´´´´´´´´´´´…8Æþ</text>
+<text x="42" y="284" xml:space="preserve" class="fx ascii" style="animation-delay:0.7s">             ŸÑÆ4…´´´´´´´´´´´´´´´´³áÆØÒ</text>
+<text x="42" y="291" xml:space="preserve" class="fx ascii" style="animation-delay:0.71s">               ÆÆÆÀc´´´´´´´´´´´¸®ËÆÆÆ</text>
+<text x="42" y="298" xml:space="preserve" class="fx ascii" style="animation-delay:0.73s">              ùÆÆÆÆÆÆÆÔ&amp;™2üžÄÆÆÆÆÆÆÆÆw</text>
+<text x="42" y="305" xml:space="preserve" class="fx ascii" style="animation-delay:0.75s">              èÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÓ</text>
+<text x="312" y="78" class="fx prompt" style="animation-delay:0.15s">josepdecid@github</text>
+<text x="798" y="78" text-anchor="end" class="fx mut" style="animation-delay:0.15s">2026-08-31</text>
+<line x1="312" y1="90" x2="798" y2="90" stroke="#d0d7de" class="fx" style="animation-delay:0.24s"/>
+<text x="312" y="114" class="fx key" style="animation-delay:0.33s">OS:</text>
+<text x="422" y="114" class="fx" style="animation-delay:0.33s"><tspan class="val">macOS &amp; CachyOS</tspan></text>
+<text x="312" y="138" class="fx key" style="animation-delay:0.42s">Uptime:</text>
+<text x="422" y="138" class="fx" style="animation-delay:0.42s"><tspan class="val">11 years, 4 months, 30 days</tspan></text>
+<text x="312" y="162" class="fx key" style="animation-delay:0.51s">Repos:</text>
+<text x="422" y="162" class="fx" style="animation-delay:0.51s"><tspan class="acc">112</tspan><tspan class="mut">  {private: 61, contributed to: 14}</tspan></text>
+<text x="312" y="186" class="fx key" style="animation-delay:0.6s">Commits:</text>
+<text x="422" y="186" class="fx" style="animation-delay:0.6s"><tspan class="acc">6,770</tspan><tspan class="mut">  {2026: 811}</tspan></text>
+<text x="312" y="210" class="fx key" style="animation-delay:0.69s">Stars:</text>
+<text x="422" y="210" class="fx" style="animation-delay:0.69s"><tspan class="acc">40</tspan></text>
+<text x="312" y="234" class="fx key" style="animation-delay:0.78s">Lines:</text>
+<text x="422" y="234" class="fx" style="animation-delay:0.78s"><tspan class="acc">3,561,517</tspan><tspan class="mut">  (</tspan><tspan class="add">+11,816,427</tspan><tspan class="mut">, </tspan><tspan class="del">-8,254,910</tspan><tspan class="mut">)</tspan></text>
+<text x="312" y="258" class="fx prompt" style="animation-delay:0.87s">$</text>
+<rect x="326" y="249" width="9" height="17" class="cursor"/>
+<clipPath id="barclip"><rect x="312" y="282" width="486" height="10" rx="5"/></clipPath>
+<rect x="312" y="282" width="90.7" height="10" fill="#f34b7d" clip-path="url(#barclip)" class="fx" style="animation-delay:0.96s"/>
+<rect x="402.1" y="282" width="78.8" height="10" fill="#555555" clip-path="url(#barclip)" class="fx" style="animation-delay:1.05s"/>
+<rect x="480.2" y="282" width="70.5" height="10" fill="#f1e05a" clip-path="url(#barclip)" class="fx" style="animation-delay:1.14s"/>
+<rect x="550.2" y="282" width="43.4" height="10" fill="#e34c26" clip-path="url(#barclip)" class="fx" style="animation-delay:1.23s"/>
+<rect x="592.9" y="282" width="31.1" height="10" fill="#3178c6" clip-path="url(#barclip)" class="fx" style="animation-delay:1.32s"/>
+<rect x="623.4" y="282" width="28.8" height="10" fill="#3572A5" clip-path="url(#barclip)" class="fx" style="animation-delay:1.41s"/>
+<rect x="651.6" y="282" width="147" height="10" fill="#d0d7de" clip-path="url(#barclip)" class="fx" style="animation-delay:1.5s"/>
+<circle cx="317" cy="318" r="5" fill="#f34b7d" class="fx" style="animation-delay:1.59s"/>
+<text x="330" y="319" class="fx val" style="animation-delay:1.59s">C++ <tspan class="mut">18.5%</tspan></text>
+<circle cx="479" cy="318" r="5" fill="#555555" class="fx" style="animation-delay:1.68s"/>
+<text x="492" y="319" class="fx val" style="animation-delay:1.68s">C <tspan class="mut">16.1%</tspan></text>
+<circle cx="641" cy="318" r="5" fill="#f1e05a" class="fx" style="animation-delay:1.77s"/>
+<text x="654" y="319" class="fx val" style="animation-delay:1.77s">JavaScript <tspan class="mut">14.4%</tspan></text>
+<circle cx="317" cy="340" r="5" fill="#e34c26" class="fx" style="animation-delay:1.86s"/>
+<text x="330" y="341" class="fx val" style="animation-delay:1.86s">HTML <tspan class="mut">8.8%</tspan></text>
+<circle cx="479" cy="340" r="5" fill="#3178c6" class="fx" style="animation-delay:1.95s"/>
+<text x="492" y="341" class="fx val" style="animation-delay:1.95s">TypeScript <tspan class="mut">6.3%</tspan></text>
+<circle cx="641" cy="340" r="5" fill="#3572A5" class="fx" style="animation-delay:2.04s"/>
+<text x="654" y="341" class="fx val" style="animation-delay:2.04s">Python <tspan class="mut">5.8%</tspan></text>
+</svg>

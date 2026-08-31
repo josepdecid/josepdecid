@@ -1,0 +1,84 @@
+name: Profile card
+
+on:
+  schedule:
+    # 03:17 UTC daily. Off the hour on purpose: GitHub drops scheduled runs
+    # that land on the minute everyone else picked.
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "card/**"
+      - ".github/workflows/profile-card.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-card
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: haskell-actions/setup@v2
+        id: setup
+        with:
+          ghc-version: "9.6.6"
+          cabal-version: "3.12.1.0"
+
+      # Cache keyed on the resolved build plan, so it only misses when a
+      # dependency actually changes.
+      - name: Resolve build plan
+        working-directory: card
+        run: |
+          cabal update
+          cabal build --dry-run
+
+      - name: Restore dependency cache
+        uses: actions/cache/restore@v4
+        id: cache
+        with:
+          path: ${{ steps.setup.outputs.cabal-store }}
+          key: ${{ runner.os }}-ghc${{ steps.setup.outputs.ghc-version }}-${{ hashFiles('card/dist-newstyle/cache/plan.json') }}
+          restore-keys: ${{ runner.os }}-ghc${{ steps.setup.outputs.ghc-version }}-
+
+      - name: Build dependencies
+        working-directory: card
+        run: cabal build --only-dependencies
+
+      - name: Save dependency cache
+        uses: actions/cache/save@v4
+        if: steps.cache.outputs.cache-hit != 'true'
+        with:
+          path: ${{ steps.setup.outputs.cabal-store }}
+          key: ${{ steps.cache.outputs.cache-primary-key }}
+
+      - name: Build
+        working-directory: card
+        run: cabal build
+
+      # A PAT stored as ACCESS_TOKEN also counts private contributions;
+      # without one the run still works, but only on public activity.
+      - name: Render cards
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN || github.token }}
+        run: |
+          BIN="$(cd card && cabal list-bin profile-card)"
+          "$BIN"
+
+      - name: Commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/light_mode.svg assets/dark_mode.svg cache/loc.json
+          if git diff --staged --quiet; then
+            echo "nothing changed"
+          else
+            git commit -m "chore: refresh profile card"
+            git push
+          fi
