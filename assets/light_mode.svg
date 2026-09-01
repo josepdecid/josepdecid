@@ -64,20 +64,20 @@
 <text x="42" y="298" xml:space="preserve" class="fx ascii" style="animation-delay:0.73s">              ùÆÆÆÆÆÆÆÔ&amp;™2üžÄÆÆÆÆÆÆÆÆw</text>
 <text x="42" y="305" xml:space="preserve" class="fx ascii" style="animation-delay:0.75s">              èÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÓ</text>
 <text x="312" y="78" class="fx prompt" style="animation-delay:0.15s">josepdecid@github</text>
-<text x="798" y="78" text-anchor="end" class="fx mut" style="animation-delay:0.15s">2026-08-31</text>
+<text x="798" y="78" text-anchor="end" class="fx mut" style="animation-delay:0.15s">2026-09-01</text>
 <line x1="312" y1="90" x2="798" y2="90" stroke="#d0d7de" class="fx" style="animation-delay:0.24s"/>
 <text x="312" y="114" class="fx key" style="animation-delay:0.33s">OS:</text>
 <text x="422" y="114" class="fx" style="animation-delay:0.33s"><tspan class="val">macOS &amp; CachyOS</tspan></text>
 <text x="312" y="138" class="fx key" style="animation-delay:0.42s">Uptime:</text>
-<text x="422" y="138" class="fx" style="animation-delay:0.42s"><tspan class="val">11 years, 4 months, 30 days</tspan></text>
+<text x="422" y="138" class="fx" style="animation-delay:0.42s"><tspan class="val">11 years, 5 months, 0 days</tspan></text>
 <text x="312" y="162" class="fx key" style="animation-delay:0.51s">Repos:</text>
-<text x="422" y="162" class="fx" style="animation-delay:0.51s"><tspan class="acc">112</tspan><tspan class="mut">  {private: 61, contributed to: 14}</tspan></text>
+<text x="422" y="162" class="fx" style="animation-delay:0.51s"><tspan class="acc">112</tspan><tspan class="mut">  {private: 61, contributed to: 15}</tspan></text>
 <text x="312" y="186" class="fx key" style="animation-delay:0.6s">Commits:</text>
-<text x="422" y="186" class="fx" style="animation-delay:0.6s"><tspan class="acc">6,758</tspan><tspan class="mut">  {2026: 812}</tspan></text>
+<text x="422" y="186" class="fx" style="animation-delay:0.6s"><tspan class="acc">6,761</tspan><tspan class="mut">  {2026: 815}</tspan></text>
 <text x="312" y="210" class="fx key" style="animation-delay:0.69s">Stars:</text>
 <text x="422" y="210" class="fx" style="animation-delay:0.69s"><tspan class="acc">40</tspan></text>
 <text x="312" y="234" class="fx key" style="animation-delay:0.78s">Lines:</text>
-<text x="422" y="234" class="fx" style="animation-delay:0.78s"><tspan class="acc">3,564,155</tspan><tspan class="mut">  (</tspan><tspan class="add">+11,819,031</tspan><tspan class="mut">, </tspan><tspan class="del">-8,254,876</tspan><tspan class="mut">)</tspan></text>
+<text x="422" y="234" class="fx" style="animation-delay:0.78s"><tspan class="acc">3,564,157</tspan><tspan class="mut">  (</tspan><tspan class="add">+11,819,034</tspan><tspan class="mut">, </tspan><tspan class="del">-8,254,877</tspan><tspan class="mut">)</tspan></text>
 <text x="312" y="258" class="fx prompt" style="animation-delay:0.87s">$</text>
 <rect x="326" y="249" width="9" height="17" class="cursor"/>
 <clipPath id="barclip"><rect x="312" y="282" width="486" height="10" rx="5"/></clipPath>
